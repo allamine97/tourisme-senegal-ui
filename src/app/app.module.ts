@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { AppRoutingModule } from './app-routing.module';
+import {HttpClientModule} from "@angular/common/http";
 
 import { AppComponent } from './app.component';
 import { AcceuilComponent } from './pages/acceuil/acceuil.component';
@@ -19,6 +20,7 @@ import { PersonnalitesComponent } from './pages/personnalites/personnalites.comp
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     CarouselModule.forRoot(),
     AppRoutingModule
   ],

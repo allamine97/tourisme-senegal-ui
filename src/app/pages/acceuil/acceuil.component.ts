@@ -14,16 +14,6 @@ export class AcceuilComponent implements OnInit {
   }
  
   //1400px * 687 px
-   
-  slides = [
-    {image: 'assets/images/culture.jpg'},
-    {image: 'assets/images/tourisme-1.png'}
-    //{image: 'assets/images/culture-1.png'}
-  ];
-  showIndicator = true;
- 
-  switchIndicator(): void {
-    this.showIndicator = !this.showIndicator;
-  }
+  
 
 }
