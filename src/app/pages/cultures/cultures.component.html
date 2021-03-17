@@ -13,6 +13,7 @@
             <div *ngFor="let c of cultures" class="col-md-4">
               <div class="card mb-4 box-shadow">
                 <img class="card-img-top" src="{{c.url_photo}}" alt="Card image cap">
+                <div class="card-title text-center"><h4>{{c.type}}</h4></div>
                 <div class="card-body">
                   <p class="card-text">{{c.description}}</p>
                   <div class="d-flex justify-content-between align-items-center">
