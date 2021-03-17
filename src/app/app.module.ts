@@ -9,6 +9,7 @@ import { AcceuilComponent } from './pages/acceuil/acceuil.component';
 import { TourismeComponent } from './pages/tourisme/tourisme.component';
 import { CulturesComponent } from './pages/cultures/cultures.component';
 import { PersonnalitesComponent } from './pages/personnalites/personnalites.component';
+import { CultureDetailsComponent } from './cultures/culture-details/culture-details.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PersonnalitesComponent } from './pages/personnalites/personnalites.comp
     AcceuilComponent,
     TourismeComponent,
     CulturesComponent,
-    PersonnalitesComponent
+    PersonnalitesComponent,
+    CultureDetailsComponent
   ],
   imports: [
     BrowserModule,

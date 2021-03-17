@@ -19,22 +19,18 @@ export class CulturesComponent implements OnInit {
     this.cultureService.getAllCultures().subscribe(
       (response: any) => {
       this.cultures= response;
-       console.log('hello',this.cultures);
+       //console.log('hello',this.cultures);
       },
         error => {
-          console.log(error)
+          //console.log(error)
         });
   }
-  
-  getCulture(id){
-     
-    this.cultureService.getCulture(id).subscribe(
-      (response: any) => {
-        console.log(response);
-      },
-        error => {
-        });
+
+  goCulture(id){
+
 
   }
+  
+
 
 }
